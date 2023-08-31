@@ -2,15 +2,43 @@
 toc: true
 comments: false
 layout: post
-title: Daily Plan Sample
-description: Example Blog!!!  This shows planning and notes from hacks.
+title: Daily Plans 1
+description: This is where I will plan out week 2 which focuses on  
 type: plans
-courses: { compsci: {week: 0} }
+courses: { compsci: {week: 1} }
 ---
+### Plans For the Day
 
-### PBL Unit 1 / Week 0
-Learning outcome.  Installing Tools and showing usage of VSCode.
-- Wednesday - Pick pair share partner, Pick crossover pair, Establish team of four.  Spend some time talking and getting to know each other, particularly with Computer Science experience and goals.  You should be matched with someone that has similar experience.
-- Thursday - Setup Tools on laptop and/or Cloud Computer.
-- Friday - Review and test as a Pair. Spend 25 minutes at one keyboard then switch for next 25 minutes.
+Day 1:
+- Get VsCode set up
+- Review concept videos
+- Create a GitHub Acc
+
+
+---
+Day 2:
+- Get Slack app and create an acc
+- Download Docker
+- Install Homebrew
+
+
+---
+Day 3:
+- Know how to use the basic commands (pwd, ls, cd, which, ...)
+- Create a vscode directory
+- Clone teacher repository
+- Launch VS Code
+
+
+---
+Day 4:
+- Configure user connection to Github
+- Create a student repository and open it in VS Code
+
+
+---
+Day 5:
+- Install Ruby, Python, and Juypyter
+- Finish doing version checks
+- Make the server and open my personal webpage
 
