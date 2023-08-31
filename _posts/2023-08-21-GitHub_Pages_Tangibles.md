@@ -3,21 +3,13 @@ toc: true
 comments: true
 layout: post
 title: Review Ticket
-description: Example Review Ticket!!! This will help us communicate results.
+description: This is where I will put my hacks for the week
 type: tangibles
-courses: { compsci: {week: 1} }
+courses: { compsci: {week: 2} }
 ---
 
-### Summary of Accomplishments
+### Hacks
 > Update Blog to contain all hacks.  
-- Reviewed with Pair.  Discuss/Show evidence.
-- Discuss laptop, cloud computer.
-- Discuss tools setup and troubles.
-- Show personal blog / home page.
-- Show how you are maintaining notes, answering hacks, and showing tangibles.  
-- How have you learned Markdown, HTML, CSS, JavaScript.
-- Show Jupyter Notebooks and how you have added and organized them in the blog.
-- Show evidence of using Slack Account, show app installed on Laptop and/or phone.  Show awared of #annoncements, #general, #coding.
-- Run make commands to build and test blog locally, before pushing changes to GitHub pages.
-- Discuss GitHub Account, show ability to push/pull changes from VSCode.
-- Discuss development on Themes, show how you plan to organized lab notebook.
+- Set up GitHub, VSCode, Jupyter Notebooks, Slack acc, WSL (windows), Docker, Homebrew
+- Create blog notes on Linux commands frequently used
+- Understand how to verify tools installed, update a repository, use the git command line
