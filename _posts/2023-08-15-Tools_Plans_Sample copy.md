@@ -2,8 +2,8 @@
 toc: true
 comments: false
 layout: post
-title: Daily Plans 1
-description: This is where I will plan out week 2 which focuses on  
+title: Daily Plans 0
+description: This is where I will plan out week 1 which focuses on  
 type: plans
 courses: { compsci: {week: 1} }
 ---

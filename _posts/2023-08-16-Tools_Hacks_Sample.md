@@ -10,4 +10,4 @@ type: hacks
 
 ## Weekly Reminders
 - Prepare for the tool check on Friday
--- Make sure to create notes with partner for the check
+- Make sure to create notes with partner for the check
