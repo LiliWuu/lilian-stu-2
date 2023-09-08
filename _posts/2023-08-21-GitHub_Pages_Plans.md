@@ -26,8 +26,10 @@ Day 3:
 
 ---
 Day 4:
-- 
+- Do the same as Day 3 and keep customizing pages
 
 ---
 Day 5:
-- 
+- Go over plan with team
+    - Do well :D
+- Start improving based on feedbacks
