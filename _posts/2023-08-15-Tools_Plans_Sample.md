@@ -14,8 +14,6 @@ Day 1:
 - Review concept videos
 - Create a GitHub Acc
 
-<img src="../../../../images/github logo.png" width="150" height="150">
-
 ---
 Day 2:
 - Get Slack app and create an acc
@@ -30,8 +28,6 @@ Day 3:
 - Clone teacher repository
 - Launch VS Code
 
-<img src="../../../../images/vscode.png" width="150" height="150">
-
 ---
 Day 4:
 - Configure user connection to Github
@@ -43,5 +39,3 @@ Day 5:
 - Install Ruby, Python, and Juypyter
 - Finish doing version checks
 - Make the server and open my personal webpage
-
-<img src="../../../../images/python logo.jpeg" width="150" height="150">

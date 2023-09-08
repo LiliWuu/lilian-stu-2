@@ -2,7 +2,7 @@
 toc: true
 comments: true
 layout: post
-title: Reminders
+title: Reminders 1
 description: This is where I will add my reminders of the week so I don't forget anything important.
 courses: { compsci: {week: 1} }
 type: hacks
