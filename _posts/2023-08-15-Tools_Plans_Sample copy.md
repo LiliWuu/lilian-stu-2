@@ -3,27 +3,12 @@ toc: true
 comments: false
 layout: post
 title: Daily Plans 0
-description: This is where I will plan out week 1 which focuses on  
+description: This is where I will plan out week 1 which focuses on getting all the tools set up
 type: plans
-courses: { compsci: {week: 1} }
+courses: { compsci: {week: 0} }
 ---
 ### Plans For the Day
 
-Day 1:
-- Get VsCode set up
-- Review concept videos
-- Create a GitHub Acc
-
-<img src="../../../../images/github logo.png" width="150" height="150">
-
----
-Day 2:
-- Get Slack app and create an acc
-- Download Docker
-- Install Homebrew
-
-
----
 Day 3:
 - Know how to use the basic commands (pwd, ls, cd, which, ...)
 - Create a vscode directory
@@ -36,6 +21,8 @@ Day 3:
 Day 4:
 - Configure user connection to Github
 - Create a student repository and open it in VS Code
+
+<img src="../../../../images/github logo.png" width="150" height="150">
 
 
 ---
