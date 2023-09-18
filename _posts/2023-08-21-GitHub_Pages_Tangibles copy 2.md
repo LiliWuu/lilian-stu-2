@@ -57,37 +57,37 @@ courses: { compsci: {week: 3} }
                 <td>Vrnda</td>
                 <td>Fast</td>
                 <td>1</td>
-                <td>-</td>
+                <td>1</td>
             </tr>
             <tr>
                 <td>Vrnda</td>
                 <td>Fast</td>
                 <td>2</td>
-                <td>-</td>
+                <td>2</td>
             </tr>
             <tr>
                 <td>Vrnda</td>
                 <td>Fast</td>
                 <td>3</td>
-                <td>-</td>
+                <td>3</td>
             </tr>
             <tr>
                 <td>Kayla</td>
                 <td>Fast</td>
                 <td>1</td>
-                <td>-</td>
+                <td>8</td>
             </tr>
             <tr>
                 <td>Kayla</td>
                 <td>Fast</td>
                 <td>2</td>
-                <td>-</td>
+                <td>3</td>
             </tr>
             <tr>
                 <td>Kayla</td>
                 <td>Fast</td>
                 <td>3</td>
-                <td>-</td>
+                <td>2</td>
             </tr>
         </tbody>
     </table>

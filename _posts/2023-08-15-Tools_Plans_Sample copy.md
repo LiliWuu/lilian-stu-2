@@ -3,7 +3,7 @@ toc: true
 comments: false
 layout: post
 title: Daily Plans 0
-description: This is where I will plan out week 1 which focuses on getting all the tools set up
+description: This is where I will plan out week 0 which focuses on getting all the tools set up
 type: plans
 courses: { compsci: {week: 0} }
 ---
