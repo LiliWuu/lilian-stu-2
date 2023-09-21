@@ -7,8 +7,8 @@ description: A calculator that allows the user to input their assignments, grade
 type: hacks
 courses: { compsci: {week: 4} }
 ---
-
-<!DOCTYPE html>
+<br><br><br>
+<!--<!DOCTYPE html>-->
 <html lang="en">
 <head>
     <meta charset="UTF-8">

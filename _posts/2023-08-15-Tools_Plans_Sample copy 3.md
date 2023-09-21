@@ -16,7 +16,10 @@ Day 1:
 
 ---
 Day 2:
-- 
+- Read through the hacks and information about the calculator
+- Look at other grade calculators online for inspo
+- Understand what a grade calculator does and how to improve upon the current one
+- Start customizing JS Input
 
 ---
 Day 3:
