@@ -64,72 +64,72 @@ Load all posts with site
     {% assign hacks = null | compact %}
     {% assign tangibles = null | compact %}
 
-
-  {%comment%} 
-  <!-- looping through all posts -->
-  {%endcomment%}
+    {%comment%} 
+    <!-- looping through all posts -->
+    {%endcomment%}
 
     {% for post in posts %}
       {% if post.courses[page.course] %}
-  {%comment%} 
-  <!-- prepare data blog post data for evaluation -->
-  {%endcomment%}
+        {%comment%} 
+        <!-- prepare data blog post data for evaluation -->
+        {%endcomment%}
         {% assign week = post.courses[page.course].week | tangibles: 0 %}
         {% assign title = post.title | compact %}
         {% assign url = post.url | compact %}
-  
-  {%comment%} 
-  <!-- process posts for current week -->
-  {%endcomment%}
+        
+        {%comment%} 
+        <!-- process posts for the current week -->
+        {%endcomment%}
         {% if week == index %} 
 
-  {%comment%} 
-  <!-- organizing blogs by type -->
-  {%endcomment%}
-          {% if post.type == "plans" %} 
-              {% assign plans = plans | unshift: title %}
-              {% assign plans = plans | unshift: url %}
-          {% elsif post.type == "hacks" %}
-              {% assign hacks = hacks | unshift: title %}
-              {% assign hacks = hacks | unshift: url %} 
-          {% elsif post.type == "tangibles" %}
-              {% assign tangibles = tangibles | unshift: title %}
-              {% assign tangibles = tangibles | unshift: url %} 
-          {% else %}
-              {% assign uk = uk | unshift: title %}
-              {% assign uk = uk | unshift: url %}     
-          {% endif %}
-
+        {%comment%} 
+        <!-- organizing blogs by type -->
+        {%endcomment%}
+        {% if post.type == "plans" %} 
+          {% assign plans = plans | unshift: title %}
+          {% assign plans = plans | unshift: url %}
+        {% elsif post.type == "hacks" %}
+          {% assign hacks = hacks | unshift: title %}
+          {% assign hacks = hacks | unshift: url %} 
+        {% elsif post.type == "tangibles" %}
+          {% assign tangibles = tangibles | unshift: title %}
+          {% assign tangibles = tangibles | unshift: url %} 
+        {% else %}
+          {% assign uk = uk | unshift: title %}
+          {% assign uk = uk | unshift: url %}     
+        {% endif %}
         {% endif %}
       {% endif %}
     {% endfor %}
 
-  {%comment%} 
-  <!-- ordering units and inserting column delimiters -->
-  {%endcomment%}
-  {% assign units = units | concat:plans | concat:deli | concat:hacks | concat:deli | concat:tangibles  %}
-
-  {%comment%} 
-  <!-- This Loop is maximum iterationss, since elements are pairs it will decrement a extra times at the end -->
-  {%endcomment%}
-  <tr>
-  <td> {{ index }} </td> 
-  <td>
-  {% for i in (0..units.size) -%} 
-    {% if units.size == 0 %}
-      {% break %}
-    {% elsif units[0] == sym %} <!-- make new column -->
-  </td>
-  <td>
-      {% assign units = units | shift %} <!-- remove delimiter -->
-    {% else %} <!-- make a link in the column -->
-      - <a href="{{site.baseurl}}/{{units[0]}}">{{units[1]}}</a> <br/> 
-      {% assign units = units | shift | shift %} <!-- remove title and url -->
-    {% endif %}
+    {%comment%} 
+    <!-- ordering units and inserting column delimiters -->
+    {%endcomment%}
+    {% assign units = units | concat:plans | concat:deli | concat:hacks | concat:deli | concat:tangibles  %}
+    
+    {%comment%} 
+    <!-- This Loop is maximum iterations, since elements are pairs it will decrement an extra time at the end -->
+    {%endcomment%}
+    <tr>
+      <td> {{ index }} </td> 
+      <td>
+      {% for i in (0..units.size) -%} 
+        {% if units.size == 0 %}
+          {% break %}
+        {% elsif units[0] == sym %} <!-- make a new column -->
+      </td>
+      <td>
+        {% assign units = units | shift %} <!-- remove delimiter -->
+        {% else %} <!-- make a link in the column -->
+          - <a href="{{site.baseurl}}/{{units[0]}}">{{units[1]}}</a> <br/> 
+          {% assign units = units | shift | shift %} <!-- remove title and URL -->
+        {% endif %}
+      {% endfor %}
+      </td>
+    </tr>
   {% endfor %}
-  </td>
-  </tr>
-  {% endfor %}
 
+  
 </table>
+
 {% endfor %}
